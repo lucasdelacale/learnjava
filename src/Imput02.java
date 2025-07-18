@@ -18,6 +18,7 @@ public class Imput02 {
         //For read one character
         char y;
         y = sc.next().charAt(0);
+        System.out.printf("Whats your name: ");
         System.out.println("Is your 1st letter: " + y + "?");
 
 
