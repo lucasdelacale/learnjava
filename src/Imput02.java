@@ -11,6 +11,7 @@ public class Imput02 {
 
         //For read numbers
         Double x;
+        System.out.printf("Write one number: ");
         x = sc.nextDouble();
         System.out.printf("you whrite: %.2f%n", x);
 
