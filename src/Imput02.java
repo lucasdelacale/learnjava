@@ -9,5 +9,18 @@ public class Imput02 {
         Scanner sc = new Scanner(System.in);
         //Variable Scanner type for scan imput of keyboard
 
+        //For read numbers
+        Double x;
+        x = sc.nextDouble();
+        System.out.printf("you whrite: %.2f%n", x);
+
+        //For read one character
+        char y;
+        y = sc.next().charAt(0);
+        System.out.println("Is your 1st letter: " + y + "?");
+
+
+
+        sc.close();
     }
 }
