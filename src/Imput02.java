@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class Imput02 {
     public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+
+        Scanner sc = new Scanner(System.in);
+        //Variable Scanner type for scan imput of keyboard
 
     }
 }
